@@ -1,0 +1,15 @@
+1.	What is ruby?
+
+Ruby is a programing language, it is easier to specify, and makes us forget the ; 
+
+2.	What pros/cons you considered from the point explained in the class
+Pro:
+-	No more ;
+-	No neede to included diles/libraries
+-	New simple to way to define code
+Cons:
+-	No Multiple inheritances 
+
+3.	According what we talked today, what are the 3 testing tiers?
+
+The first tier is the GUI, the second is the services and the third is the back end
