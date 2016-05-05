@@ -1,0 +1,23 @@
+	a) The way to add comments on ruby (inline – multiline)
+
+How to write comments in ruby is using the # character for a inline 
+to multiline used = begin = end, with the space between them where they are placed comment lines
+	
+	b) When you should use each type
+
+For inline comment is used when we need to write something short that only occupy a line
+For multiline comment is concerned for headings or to give a more complete explicaion the program, which occupies two or more lines
+
+	c) create and script using inline-multiline comments
+
+#inline comment
+
+=begin
+multiline
+comment
+
+Practice 2
+script to show the use of inline comment and multiline comment
+=end
+
+	put "Hello Word!"
