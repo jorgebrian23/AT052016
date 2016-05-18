@@ -61,15 +61,3 @@ if hash.existValue hash.h
 end
 
 
-=begin
-p hash.h
-
-
-hash=CreateHash.new
-hash.defineHash
-hash.printKey hash.hash
-hash.printValues hash.hash
-hash.printHash hash.hash
-p hash.existKey hash.hash
-p hash.existValue hash.hash
-=end
