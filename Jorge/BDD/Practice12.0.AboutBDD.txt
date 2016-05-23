@@ -1,0 +1,70 @@
+	1. When and why BDD was defined
+
+BDD is a process designed to aid the management and the delivery of software development projects 
+by improving communication between engineers and business professionals. 
+By aiding communication between these two teams, 
+BDD ensures all development projects remain focused on delivering what 
+the business actually needs while meeting all requirements of the user.
+
+	2. The most important aspects of BDD
+
+All parties have a shared understanding of the project and can be involved in the communication.
+A shared language ensures everyone (technical or not) has thorough visibility into the project’s progression.
+Resulting software design that matches existing and supports upcoming business needs.
+Improved quality code reducing costs of maintenance and minimising project risk.
+
+	3. Why is useful and when could be applied.
+
+Being a common language , BDD can even be used as part of documentation as evidence of acceptance of the project.   
+You can also allow the customer, project manager , analysts, etc, to paricipate with 
+developers in the definition and validation of specifications.  
+
+	
+	4.Which type of teams could implement BDD
+
+All kind of teams to encourage collaboration between   
+developers, QA and non-technical or business participants in a   
+software project.  
+
+	5. Structure of a feature – Give an example
+Structure
+     Name
+     Size [Optional]
+     Priority 
+
+Feature: Quick Post
+priority: 1
+
+
+
+	6. Structure of a user story – Give an example
+
+Structure
+Title (one line describing the story)
+Narrative:
+As a [role]
+I want [feature]
+So that [benefit]  
+
+Title: Quick Post 
+
+As a guest user
+I want to post a ride
+So that any employee going to my direction can join me
+   
+
+	7. Structure of a scenario – Give an example
+
+Structure :
+Given some initial context (the givens)
+When an event occurs
+then ensure some outcomes
+
+Scenario: Successfull posting
+Given Guest USer enter all correct data
+When click on "Submit"
+Then System display message "Posting is successful"
+
+
+	8.Differences between BDD and BDT
+The biggest difference is that the developers do not participate in BDT
